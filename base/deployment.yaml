@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: aniket-app
+  namespace: aniket-app
   labels:
     app: aniket-app
 spec:
